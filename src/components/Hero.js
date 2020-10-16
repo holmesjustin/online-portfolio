@@ -10,7 +10,7 @@ function Hero() {
       {/* <video src='/videos/video-2.mp4' autoPlay loop muted /> */}
       <h1 className="outline-title">Justin Holmes' Portfolio</h1>
       <p className="outline-subtitle">
-        My experiences, acquired skills, and future goals.
+        My Experiences, Acquired Skills, and Future Goals.
       </p>
       <div className="hero-btns">
         {/* <Button

@@ -12,6 +12,22 @@
   font-size: 24px;
 }
 
+.social-icon-link.github:hover {
+  color: #f34f29;
+}
+
+.social-icon-link.linkedin:hover {
+  color: #0072b1;
+}
+
+.social-icon-link.email:hover {
+  color: #0dab62;
+}
+
+.social-icon-link.youtube:hover {
+  color: #ff0000;
+}
+
 .social-media {
   max-width: 1000px;
   width: 100%;
@@ -45,6 +61,10 @@
   align-items: center;
   padding-bottom: 16px;
 }
+
+/* .social-logo:hover {
+  color: #dadada;
+} */
 
 .website-rights {
   color: #fff;

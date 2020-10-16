@@ -11,7 +11,6 @@ function Footer() {
           <Link className="social-logo" to="/">
             Justin Holmes
           </Link>
-          <div className="website-rights">© Justin Holmes 2020</div>
           <div className="social-icons">
             <Link
               className="social-icon-link linkedin"
@@ -23,14 +22,6 @@ function Footer() {
             </Link>
 
             <Link
-              className="social-icon-link email"
-              to={{ pathname: "mailto:justin.holmes@duke.edu" }}
-              target="_blank"
-              aria-label="Email"
-            >
-              <i className="fas fa-envelope"></i>
-            </Link>
-            <Link
               className="social-icon-link github"
               to={{ pathname: "https://github.com/holmesjustin" }}
               target="_blank"
@@ -38,6 +29,16 @@ function Footer() {
             >
               <i className="fab fa-github"></i>
             </Link>
+
+            <Link
+              className="social-icon-link email"
+              to={{ pathname: "mailto:justin.holmes@duke.edu" }}
+              target="_blank"
+              aria-label="Email"
+            >
+              <i className="fas fa-envelope"></i>
+            </Link>
+
             <Link
               className="social-icon-link youtube"
               to={{
@@ -50,6 +51,7 @@ function Footer() {
               <i className="fab fa-youtube"></i>
             </Link>
           </div>
+          <div className="website-rights">© Justin Holmes 2020</div>
         </div>
       </section>
     </div>

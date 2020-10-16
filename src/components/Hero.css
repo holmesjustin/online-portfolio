@@ -11,7 +11,7 @@ video {
 }
 
 .outline-subtitle {
-  -webkit-text-stroke: 0.04em black;
+  -webkit-text-stroke: 0.045em black;
 }
 
 .hero-container {
@@ -44,16 +44,16 @@ video {
 
 .hero-btns {
   margin-top: 32px;
+  border: 2px black;
 }
 
 .hero-btns .btn {
   margin: 6px;
-  -webkit-text-stroke: 0.05em black;
+  -webkit-text-stroke: 0.03em black;
 }
 
 .hero-btns .btn:hover {
   margin: 6px;
-  -webkit-text-stroke: 0em black;
 }
 
 .fa-play-circle {

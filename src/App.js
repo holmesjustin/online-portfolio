@@ -9,7 +9,6 @@ import About from "./pages/AboutPage";
 import Contact from "./pages/ContactPage";
 import Portfolio from "./pages/PortfolioPage";
 import Footer from "./components/Footer";
-import Blog from "./pages/Blog";
 
 function App() {
   return (
