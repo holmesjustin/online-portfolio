@@ -1,21 +1,36 @@
-import React from 'react'
-import { Button } from './Button'
+import React from "react";
+import { Button } from "./Button";
 
-import '../App.css';
-import './Hero.css';
+import "../App.css";
+import "./Hero.css";
 
 function Hero() {
-    return (
-        <div className='hero-container'>
-            {/* <video src='/videos/video-2.mp4' autoPlay loop muted /> */}
-            <h1>Adventure Awaits</h1>
-            <p>What are you waiting for?</p>
-            <div className='hero-btns'>
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Get Started</Button>
-                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>Watch Trailer<i className='far fa-play-circle' /></Button>
-            </div>
-        </div>
-    )
+  return (
+    <div className="hero-container">
+      {/* <video src='/videos/video-2.mp4' autoPlay loop muted /> */}
+      <h1 className="outline-title">Justin Holmes' Portfolio</h1>
+      <p className="outline-subtitle">
+        My experiences, acquired skills, and future goals.
+      </p>
+      <div className="hero-btns">
+        {/* <Button
+          className="btns"
+          buttonStyle="btn--outline"
+          buttonSize="btn--large"
+        >
+          See My Work
+        </Button> */}
+        <Button
+          className="btns"
+          buttonStyle="btn--outline"
+          buttonSize="btn--large"
+        >
+          Learn About Me
+          {/* <i className="far fa-play-circle" /> */}
+        </Button>
+      </div>
+    </div>
+  );
 }
 
-export default Hero
+export default Hero;
