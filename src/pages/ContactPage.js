@@ -10,7 +10,7 @@ export default function Contact() {
         <h1 className="header">Contact Me!</h1>
       </div>
       <div>
-        <form data-netlify="true" data-netlify-recaptcha="true">
+        <form name="contact" data-netlify="true" data-netlify-recaptcha="true">
           <input
             name="name"
             type="text"
@@ -29,7 +29,7 @@ export default function Contact() {
             placeholder="Message"
           ></textarea>
           <div data-netlify-recaptcha="true"></div>
-          <input type="submit" value="SUBMIT" />
+          <button type="submit">SUBMIT</button>
         </form>
       </div>
     </div>
